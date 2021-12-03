@@ -1,0 +1,118 @@
+#nav{
+	border:1px solid black;
+	width:30%;
+	height:100%;
+	box-sizing:border-box;
+	float:left;
+	position:relative;
+	background-color:black;
+	box-shadow: 2px 2px 35px black;
+}
+#home{
+	border:1px solid black;
+	align:center;
+	width:98%;
+	height:100%;
+	box-sizing:border-box;
+	background-color:#63BFBF;
+	padding-left: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ a :active{
+ color:white;
+
+}
+
+a:hover{
+   color: #63bfbf;
+}
+.nav{
+	position:absolute;
+	color:white;
+}
+
+/* #head1{
+	top:25%;
+	left:30%;
+}
+#head2{
+	top:35%;
+	left:30%;
+}
+#head3{
+	top:45%;
+	left:30%;
+}
+#head4{
+	top:55%;
+	left:30%;
+}
+#head5{
+	top:65%;
+	left:30%;
+} */
+#home-head{
+	top:5%;
+	text-align:center;
+}
+
+/* #icon1{
+	width:8%;
+	position:absolute;
+	top:27%;
+	left:15%;
+
+}
+#icon2{
+	width:8%;
+	position:absolute;
+	top:38%;
+	left:15%;
+}
+#icon3{
+	width:8%;
+	position:absolute;
+	top:48%;
+	left:15%;
+}
+#icon4{
+	width:8%;
+	position:absolute;
+	top:57%;
+	left:15%;
+}
+#icon5{
+	width:8%;
+	position:absolute;
+	top:67%;
+	left:15%;
+} */
+#slack{
+	width:40%;
+	height:70%;
+	margin-top:3%;
+	margin-left:10%;
+}
+#slack:hover{
+	box-shadow: 2px 2px 35px black;
+}
+#mail:hover{
+	box-shadow: 2px 2px 40px black;
+
+}
+#mail{
+
+	width:30%;
+	height:70%;
+	margin-left:4%;
+	position: absolute;
+	top: 15%;
+	border:1px solid black;
+}
+.nav:hover{
+	background-color: #40E0D0 ;
+
+}

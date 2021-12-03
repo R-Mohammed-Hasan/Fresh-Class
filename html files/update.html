@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html charset='utf-8' lang="en">
+<head>
+  <title>Update photo</title>
+  </head>
+  <style>
+  *{
+    color:black;
+    text-decoration: none;
+  }
+  a:link{
+      color:black;
+    }
+    a:active{
+      color:black;
+    }
+    a:visited{
+      color:grey;
+    }
+    .id{
+      border-radius: 5%;
+      padding:20px;
+      width:30%;
+      height:1000px;
+      margin-left: 35%;
+    }
+    #tit{
+      box-shadow: 0px 0px 10px;
+      font-family:'oxbot';
+      font-size:45px;
+      padding:5px;
+    }
+    #set{
+      box-shadow:0px 0px 10px teal;
+      color:black;
+      padding:5px;
+      animation: mymove 3s infinite;
+    }
+    #set2{
+    box-shadow:10px 0px 100px;
+    color:grey;
+    border-top-right-radius: 5%;
+    font-size:18px;
+    /* border:2px outset grey; */
+    animation: move 3s infinite;
+    }
+    body{
+      font-family:'oxbot';
+    }
+    div{
+      padding:15px;
+    }
+    @keyframes move{
+      50%{box-shadow: 0px 0px 100px teal;}
+    }
+
+    </style>
+  <body>
+    <div  id='set2' style="padding:20px; width:30%; height:1000px;position: absolute;color:white;">
+      <a href="school settings.html">
+        <input type="image" src="../Assets/Images/back.svg" name="back" width="10%" style="vertical-align:top;background:black;border-radius:100%;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <font face="oxbot" size='25'>
+          <span id='set'>Settings</span>
+        </font>
+        <br><br><hr color='black' style="height:2px">
+    <dl><dt><h2>Change User Name</h2></dt>
+    <dd><h4 style="font-style:arial;"> To change your name, ask your admin. <a href="#">Learn more.</a></h4></dd></dl><hr>
+    <h2><a href="update.html">Update photo</a></h2><hr><br>
+    <strong style="font-size:27px">Send e-mail notifications  :        </strong>
+    <input type="checkbox" name="mail" ><br><br><hr>
+    <h2>Device Notifications</h2><hr>
+      <h2><a href="Support.html"> Need Support ? </a></h2><hr>
+    </div>
+    <div class="id">
+      <span id="tit"> Update Photo</span><br><br><hr color='black' style="height:2px;">
+      <div style="font-size:22px;">Input your image here:</div>
+      <div><img src="../Assets/Images/login.jpg" width='150px' height="150px" style="vertical-align:middle;"><input type="file" name="image" value="">
+      </div><hr color='black'>
+      <div style="font-size:22px;" align='center'><input type="submit" name="sub" value="Submit" style="color:black;"></div>
+
+   </div>
+  </body>
+</html>

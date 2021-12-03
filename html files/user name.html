@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
+<title>User Name
+</title>
+</head>
+<style>
+*{
+  color:black;
+  text-decoration: none;
+}
+div{
+  padding:15px;
+}
+.id{
+  padding:20px;
+  width:30%;
+  height:1000px;
+  margin-left: 35%;
+}
+#title{
+  box-shadow: 0px 0px 10px black;
+  font-family:'oxbot';
+  font-size: 45;
+  padding:5px;
+}
+#body{
+  margin-top:50px;
+}
+body{
+  style="font-size:2vw";
+  font-family: 'oxbot';
+  font-size:18;
+}
+a:link{
+    color:black;
+  }
+  a:active{
+    color:black;
+  }
+  a:visited{
+    color:grey;
+  }
+#set{
+  box-shadow:0px 0px 10px teal;
+  color:black;
+  padding:5px;
+  animation: mymove 3s infinite;
+}
+#set2{
+color:grey;
+border-top-right-radius: 5%;
+/* border:2px outset teal; */
+animation: move 3s infinite;
+}
+@keyframes move{
+  50%{box-shadow: 0px 0px 100px teal;}
+}
+</style>
+<body>
+  <div  id='set2' style="padding:20px; width:30%; height:1000px;position: absolute">
+    <a href="school settings.html">
+      <input type="image" src="../Assets/Images/back.svg" name="back" width="10%" style="vertical-align:top;background:black;border-radius:100%;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <font face="oxbot" size='25'>
+        <span id='set'>Settings</span>
+      </font>
+      <br><br><hr color='black' style="height:2px">
+  <dl><dt><h2><a href="user name.html">Change User Name</a></h2></dt>
+  <dd><h4 style="font-style:arial;"> To change your name, ask your admin. <a href="#">Learn more.</a></h4></dd></dl><hr>
+  <h2>Update photo</h2><hr><br>
+  <strong style="font-size:27px">Send e-mail notifications  :        </strong>
+  <input type="checkbox" name="mail" ><br><br><hr>
+  <h2>Device Notifications</h2><hr>
+    <h2><a href="Support.html"> Need Support ? </a></h2><hr>
+  </div>
+  <div class="id" style="width:30%;height:1000px;">
+     <span id="title"> User Name</span><br><br><hr color='black' style="height:3px;">
+     <dl><dt><div style="font-size:22px;">Your name:</div></dt><dd><div><input type='text' name='sname' placeholder="Enter your name" style="padding:5px;border-radius:10px;width:300px;"></div></dd><hr color='black'>
+     <div style="font-size:22px;">Your Description :</div><div><textarea style="width:400px;height:100px;"></textarea></div><hr color='black'>
+     <div style="font-size:22px;"> Ask permission from Admin : <input type="checkbox" name="permision" value=""></div><hr color='black'><div align=center><input type="submit" Name="submit" value="Submit" style="color:black;"></div>
+
+</div>
+</body>
+</html>

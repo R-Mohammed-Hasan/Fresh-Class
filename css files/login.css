@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.maincontainer{
+    position: relative;
+    width: 50%;
+    height: 55vh;
+    box-shadow: 0px 0px 100px grey;
+}
+
+.lsidediv{
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lsidebac{
+    height: 100%;
+    width: auto;
+    opacity: 0.4;
+}
+
+.logo{
+    position: absolute;
+    width: 35%;
+    height: auto;
+}
+.rsidediv{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    position: absolute;
+    width: 14%;
+    top: 10%;
+}
+
+.rsidediv h2{
+    position: absolute;
+    top: 24%;
+    color: #63BFBF;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 18%;
+    padding: 5%;
+    border: 1px solid #63BFBF;
+}
+
+input[type="password"]{
+    margin-top: 6%;
+    padding: 5%;
+    border: 1px solid #63BFBF;
+}
+
+
+input[type="submit"]{
+    margin-left: 25%;
+    padding: 4% 20%;
+    border: 1px solid #63BFBF;
+    background-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #63BFBF;
+}
+
+input[type="submit"]:hover{
+    background-color: #63BFBF;
+    color: #000;
+}
+
+form{
+    margin-top: 10%;
+}

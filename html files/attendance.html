@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Attendance of Students</title>
+<span><img src=../Assets/Images/fclogo2.png width=17% height=11% style="float:left;"></span>
+<br><h1 style="margin-left:43%;">Students Attendance</h1>
+</head>
+<style>
+th{
+  background-color: grey;
+  color:white;
+}
+tr:nth-child(odd)
+{
+  background-color: #7FFFD4;
+}
+th,tr,td{
+  padding:10px;
+}
+body
+{
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+</style>
+<body><br>
+  <hr color="black">
+  <br><br>
+  <div align="center">Calendar:  <input type="date" name="calender" value="Calender"></div><br><br>
+
+  <table align="center" border="5"  width="80%" height="100%">
+
+     <tr><th>Student Name</th><th>Present &nbsp;<input type="button" value="Mark all" onclick="markall()"></th></tr>
+     <tr><td> 1. Abisha Antony</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 2. Annam Pawan Raj</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 3. Annamalai</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 4. Annapurani</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 5. Aswath</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 6. Chitraj</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 7. Deepak</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 8. Haiden</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td> 9. Hasan Mushraf</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>10. Ismail</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>11. Jerushya</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>12. Kasi Antony</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>13. Kaushik Singh</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>14. Keerthana</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>15. Mahalakshmi</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>16. Meenu Sowjanya</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>17. Mohammed Hasan</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>18. Mohammed Riyas</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>19. Swetha</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>20. Prasannah</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>21. Rishi</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>22. Riyas</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>23. Vaishnavi S</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>24. Vaishnavi P</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>25. Venkat Krishnan</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>26. Vimal Raj</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>27. Sangeetha</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>28. Santhanu</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>29. Saranya</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>30. Sugu Ram</td><td align=center><input type="checkbox" name="st"></td>
+     <tr><td>31. Selva Raj</td><td align=center><input type="checkbox" name="st"></td>
+</table>
+   <br><br><br>
+ <script type="text/javascript">
+   function markall(){
+    let a = document.getElementsByName("st");
+    let i;
+    for(i = 0; i < a.length ; i++){
+      if(a[i].type == "checkbox"){
+        a[i].checked = true;
+      }
+    }
+}
+ </script>
+
+
+</body>
+</html>
